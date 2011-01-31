@@ -1,0 +1,30 @@
+----------------------------
+-- Hayas v0.2 -- by thoso --
+----------------------------
+About:
+	Hayas is a IRC bot made in Perl wich responds to some commands, and have a basic "AI"
+
+----------------------------
+Syntax:
+	hayas.pl [configfile]
+	
+----------------------------
+Changelog:
+	v0.2	-	Neat version released! Now with a new name: Hayas; and startup screen.
+				New config file (with comments)
+				Markov's chain based "AI" added
+				Admin allowed hosts list
+				Console visualization of incoming RAW data toggle
+				Experimental CTCP implementation (only reply to VERSION for now)
+				Now Regex replies have variables support (&ME,&NICK,&TARGET)
+				New Regex learning syntax: _learn <M,S> <Match Regex> <Response/Substitution Regex>
+
+	v0.1	- 	First version released.
+				Only with Regex reply stuff for it's "AI"
+
+----------------------------
+TODO:
+	Localization files (I realized just now that the entire bot's UI is in PT-BR)
+	Silent mode
+
+----------------------------
